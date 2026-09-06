@@ -1,0 +1,74 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License version 3.0
+* that is bundled with this package in the file LICENSE.md
+* It is also available through the world-wide-web at this URL:
+* https://opensource.org/license/osl-3-0-php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to support@qloapps.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to a newer
+* versions in the future. If you wish to customize this module for your needs
+* please refer to https://store.webkul.com/customisation-guidelines for more information.
+*
+* @author Webkul IN
+* @copyright Since 2010 Webkul
+* @license https://opensource.org/license/osl-3-0-php Open Software License version 3.0
+*/
+
+/* start */
+.bootstrap #dashboard #dashproducts nav {
+	margin-bottom: 10px;
+	font: 400 1.1em/120% "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+  }
+/* end */
+
+.bootstrap #dashboard #dashproducts nav {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+#content.bootstrap #dashproducts section:last-child .tab-content.panel {
+	border-radius: 5px;
+}
+
+#dashproducts #table_top_10_most_search .hotel-thumbnail {
+	width: 55px;
+}
+
+#dashproducts section .nav-pills {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+	#dashproducts section .nav-pills {
+		padding: 0 5%;
+	}
+}
+
+
+@media (max-width: 900px) {
+	#dashproducts section .nav-pills {
+		padding: 0 10%;
+	}
+}
+
+#dashproducts section .nav-pills .nav-item {
+	margin-bottom: 25px;
+}
+
+#dashproducts section .nav-pills .nav-item a {
+	border: 1px solid #00AFF0;
+	border-radius:  5px;
+}
+
+#dashproducts section .nav-pills .nav-item + .nav-item {
+	margin-left: 0px;
+}

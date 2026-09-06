@@ -1,0 +1,81 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License version 3.0
+* that is bundled with this package in the file LICENSE.md
+* It is also available through the world-wide-web at this URL:
+* https://opensource.org/license/osl-3-0-php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to support@qloapps.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to a newer
+* versions in the future. If you wish to customize this module for your needs
+* please refer to https://store.webkul.com/customisation-guidelines for more information.
+*
+* @author Webkul IN
+* @copyright Since 2010 Webkul
+* @license https://opensource.org/license/osl-3-0-php Open Software License version 3.0
+*/
+
+.avail-pie-text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 15px;
+}
+
+.avil-chart-head{
+	padding-top: 15px;
+	height: 115px;
+}
+
+#availablePieChart {
+	position: relative;
+	padding-top: 100%;
+
+}
+#availablePieChart svg{
+	position: absolute;
+	top: -50px;
+	bottom: 50px;
+	left: -50px;
+	right: -50px;
+	width: calc(100% + 100px);
+	height: calc(100% + 100px);
+}
+
+.avail-pie-value{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: #FFFFFF;
+	padding-bottom: 2px;
+}
+
+.avail-pie-value-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* border: 1px solid black; */
+}
+
+.avail-pie-label-container{
+	margin:4px;
+	height: 80px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#dashoccupancy .label-tooltip {
+    color: #00aff0;
+    cursor: pointer;
+}
+#dashoccupancy .tooltip {
+    text-transform: none;
+}

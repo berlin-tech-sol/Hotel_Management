@@ -1,0 +1,151 @@
+------------------------------
+# V1.1.9 to V1.2.0
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1464] Updated for PHP version 8.1 to 8.4 and MYSql 8 compatibility
+
+------------------------------
+# V1.1.8 to V1.1.9
+------------------------------
+
+## Improved/Changed Features:
+
+* [FO] : [#860] Fixed front office 'hotel-reservation-theme' RTL compatibility
+* [CO] : [#1156] Updated the demo data added to the database for the QloApps on installation.
+* [BO] : [#1165] Displayed image Upload Sizes for Hotel Amenities and Interior Blocks
+* [CO] : [#1195] Added process for smarty template overriding.
+
+
+------------------------------
+# V1.1.7 to V1.1.8
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#528] licenses updated
+* [BO] : [#456] Allow admin to add new links on Hotel Reservation System > Settings page and removed shortcut links of "Our Rooms" and "Testimonial" modules
+* [CO] : [#468] Update image generation method for hotel and default modules
+* [BO] : [#444] Fix undefined variable issue at Hotel Interior Block settings page at back office
+* [CO] : [#366] Updated core upgrade files and modules upgrade files
+* [CO] : [#334] Remove install.sql files from modules
+* [CO] : [#669] Updated: text translations call variable assigned to javascript
+* [FO] : [#677] Fix image display issue on homepage
+
+
+------------------------------
+# V1.1.6 to V1.1.7
+------------------------------
+
+## Improved/Changed Features:
+
+[*] FO : [#290] Using $this->_path for including css and js
+
+
+------------------------------
+# V1.1.5 to V1.1.6
+------------------------------
+
+## Added Features:
+
+[+] FO : [#198] display hook added after the interior block description "displayInteriorExtraContent"
+
+------------------------------
+# V1.1.4 to V1.1.5
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : Images now deleted using Objectmodel function
+
+-----------------------------
+# V1.1.3 to V1.1.4
+-----------------------------
+
+## Improved/changed features
+
+[*] CO : License year is changed up to 2020.
+
+## Bug/Issues Resolved:
+
+[-] FO : FIXED : If all rows are disabled then also Interior block is visible on home page.
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+-----------------------------
+# V1.1.2 to V1.1.3
+-----------------------------
+
+## Improved/changed features
+
+[*] CO : hookDisplayDefaultNavigationHook hook removed as module's navigation link at front menu will be managed by blocknavigatiomenu module now.
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+-----------------------------
+# V1.1.1 to V1.1.2
+-----------------------------
+
+## Improved/changed features
+
+[*] BO : Images validation improved client side (for post_max_size issue).
+[*] BO : Validate::isGenericName validation added for title and description fields.
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+-----------------------------
+# V1.1.0 to V1.1.1
+-----------------------------
+
+## Added features
+
+[+] BO : Configuration option "Show link at navigation" given to choose whether show "About Hotel Block" link at navigation menu or not.
+
+
+## Improved/changed features
+
+[+] BO : Images validation improved.
+[+] BO : Render option moved above render list at AdminAboutHotelBlockSetting controller.
+- [BO] : "Interior" link is removed from footer explore block.
+
+
+## Update Policy
+
+- Mobule need only file update, can be updated only by UPLOADING new version on module
+
+
+-----------------------------
+# V1.0.1 to V1.1.0
+-----------------------------
+
+## Added features
+
++ [CO] : Module is now made multilang.
++ [CO] : index.php added/Updated in all folders
++ [CO] : License.txt added.
++ [CO] : License added in every file.
++ [CO] : logo.gif file added.
+
+
+## Improved/changed features
+
+- [BO] : position working improved at AdminAboutHotelBlockSetting controller
+
+- [CO] : getHotelInteriorImg() improved in WkHotelInteriorImage.php
+
+- [CO] : `id` is changed to `id_interior_image` in htl_interior_image table for position working.
+
+
+## Update Policy
+
+- Database changed, Module need upload new file then UNINSTALL and re-installation.

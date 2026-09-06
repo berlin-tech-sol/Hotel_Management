@@ -1,0 +1,41 @@
+------------------------------
+# V1.4.4 to V1.4.5
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1399] Added Standard product flow in QloApps
+
+------------------------------
+# V1.4.3 to V1.4.4
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#987] Improved Statstics data in admin stats page
+
+------------------------------
+# V1.4.2 to V1.4.3
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#564] Fix Stats > Stats page issues
+* [BO] : [#451] Improve statistics at back office
+* [BO] : [#413] Fix date formats at back office
+
+
+------------------------------
+# V1.4.1 to V1.4.2
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : Module is made compatible with QloApps.
+
+_____________________________________________________________________________________________________
+
+2014-04-10 15:42:40 +0200	// Statsforecast: typo.
+2014-03-27 17:19:43 +0100	/ MO statsforecast : min ps_versions_compliancy modified (1.5.6.1 => 1.6)
+2014-03-24 15:22:46 +0100	/ MO statsforecast : ps_versions_compliancy added
+2014-03-20 14:37:01 +0100	Initial commit

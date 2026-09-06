@@ -1,0 +1,30 @@
+------------------------------
+# V1.0.0 to V1.0.1
+------------------------------
+
+## Improved/Changed Features:
+
+* [FO] : [#1411] Text changes in the front offfice.
+* [FO] : [#1388] Added CSRF token validation on user logout at Front office
+
+------------------------------
+# V0.4.1 to V1.0.0
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1195] Added process for smarty template overriding.
+
+------------------------------
+# V0.4.0 to V0.4.1
+------------------------------
+
+## Improved/Changed Features:
+
+* [FO] [#385] Improve front office header
+
+
+2014-04-22 18:57:59 +0200	// Changelog updated
+2014-03-24 11:43:29 +0100	/ MO blockuserinfo : ps_versions_compliancy modified (1.5.6.1 => 1.6)
+2014-03-24 11:04:51 +0100	/ MO blockuserinfo : ps_versions_compliancy added
+2014-03-20 14:29:37 +0100	Initial commit

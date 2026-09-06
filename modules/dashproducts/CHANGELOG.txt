@@ -1,0 +1,55 @@
+------------------------------
+# V1.0.3 to V1.0.4
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1464] Updated for PHP version 8.1 to 8.4 and MYSql 8 compatibility
+
+------------------------------
+# V1.0.2 to V1.0.3
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#900] Fixed dashboard stats issues and also improved the view of the dashboard
+* [CO] : [#909] Fixed missing translation from the templates of the modules.
+* [BO] : [#1248] Fixed wrong process for the hotel name for 'most viewed' room types for dashboard in the back-office.
+
+
+------------------------------
+# V1.0.1 to V1.0.2
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#551] Updated best selling rooms and most viewed rooms statistics
+* [CO] : [#468] Update image generation method for hotel and default modules
+* [BO] : [#451] Improve statistics at back office
+* [BO] : [#412] Resolve dashboard design issues
+* [BO] : [#391] Updated dashboard structure | Fixed dashboard widget
+* [CO] : [#366] Updated core upgrade files and modules upgrade files
+
+
+------------------------------
+# V1.0.0 to V1.0.1
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#310] Updated sales section
+
+
+------------------------------
+# V0.3.3 to V1.0.0
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : Updated with latest PS version - 1.6.1.23.
+
+
+
+2014-04-22 18:58:19 +0200	// Changelog updated
+2014-03-24 15:21:15 +0100	/ MO dashproducts : ps_versions_compliancy added
+2014-03-20 14:32:28 +0100	Initial commit

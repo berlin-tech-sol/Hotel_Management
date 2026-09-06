@@ -1,0 +1,35 @@
+------------------------------
+# V1.0.2 to V1.0.3
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1464] Updated for PHP version 8.1 to 8.4 and MYSql 8 compatibility
+
+------------------------------
+# V1.0.1 to V1.0.2
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#900] Fixed dashboard stats issues and also improved the view of the dashboard
+* [BO] : [#1129] Fixed Dashboard issues on different sections
+
+------------------------------
+# V1.0.0 to V1.0.1
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#569] Text change for Total revenue per available room (TRevPAR) on dashboard
+* [CO] : [#528] licenses updated
+* [BO] : [#451] Improve statistics at back office
+* [BO] : [#412] Resolve dashboard design issues
+* [BO] : [#391] Updated dashboard structure | Fixed dashboard widget
+* [BO] : [#675] Fix Average Occupancy Rate issue on dashboard
+
+
+Changelog
+
+v1.0.0
+- first release

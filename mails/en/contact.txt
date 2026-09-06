@@ -1,0 +1,10 @@
+
+[/{shop_url}]
+
+Message from a {shop_name} customer
+
+{contact_content_txt}
+
+{shop_name} [/{shop_url}] powered by Webkul(tm)
+[https://webkul.com]
+

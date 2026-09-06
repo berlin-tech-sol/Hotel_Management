@@ -1,0 +1,37 @@
+------------------------------
+# V1.0.2 to V1.0.3
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1464] Updated for PHP version 8.1 to 8.4 and MYSql 8 compatibility
+
+------------------------------
+# V1.0.1 to V1.0.2
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#869] Removed custom scrollbar design for badges on admin dashboard
+* [BO] : [#900] Fixed dashboard stats issues and also improved the view of the dashboard
+* [CO] : [#909] Fixed missing translation from the templates of the modules.
+* [CO] : [#928] Added new hooks
+
+------------------------------
+# V1.0.0 to V1.0.1
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#587] Update guests count in Operations Today on dashboard
+* [BO] : [#560] Fixed: Guests count in "Operations Today" panel of Dashboard in Back-office.
+* [BO] : [#528] licenses updated
+* [BO] : [#463] Add 'Operations Today' section on admin dashboard
+* [BO] : [#412] Resolve dashboard design issues
+* [BO] : [#391] Updated dashboard structure | Fixed dashboard widget
+
+
+Changelog
+
+v1.0.0
+- first release

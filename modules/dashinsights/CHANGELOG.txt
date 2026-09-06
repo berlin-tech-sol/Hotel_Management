@@ -1,0 +1,22 @@
+------------------------------
+# V1.0.1 to V1.0.2
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1464] Updated for PHP version 8.1 to 8.4 and MYSql 8 compatibility
+
+------------------------------
+# V1.0.0 to V1.0.1
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#900] Fixed dashboard stats issues and also improved the view of the dashboard
+* [CO] : [#909] Fixed missing translation from the templates of the modules.
+* [BO] : [#1129] Fixed Dashboard issues on different sections
+
+Changelog
+
+v1.0.0
+- first release

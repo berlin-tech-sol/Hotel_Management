@@ -1,0 +1,34 @@
+------------------------------
+# V1.0.2 to V1.0.3
+------------------------------
+
+## Improved/Changed Features:
+
+* [CO] : [#1464] Updated for PHP version 8.1 to 8.4 and MYSql 8 compatibility
+
+------------------------------
+# V1.0.1 to V1.0.2
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#900] Fixed dashboard stats issues and also improved the view of the dashboard
+* [CO] : [#909] Fixed missing translation from the templates of the modules.
+
+------------------------------
+# V1.0.0 to V1.0.1
+------------------------------
+
+## Improved/Changed Features:
+
+* [BO] : [#586] Update Dashavailability graph
+* [CO] : [#528] licenses updated
+* [BO] : [#451] Improve statistics at back office
+* [BO] : [#412] Resolve dashboard design issues
+* [BO] : [#391] Updated dashboard structure | Fixed dashboard widget
+
+
+Changelog
+
+v1.0.0
+- first release

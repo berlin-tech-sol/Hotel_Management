@@ -1,0 +1,68 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License version 3.0
+* that is bundled with this package in the file LICENSE.md
+* It is also available through the world-wide-web at this URL:
+* https://opensource.org/license/osl-3-0-php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to support@qloapps.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to a newer
+* versions in the future. If you wish to customize this module for your needs
+* please refer to https://store.webkul.com/customisation-guidelines for more information.
+*
+* @author Webkul IN
+* @copyright Since 2010 Webkul
+* @license https://opensource.org/license/osl-3-0-php Open Software License version 3.0
+ */
+
+ .adminstats .graph-level {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adminstats .stat-box {
+    min-width: 150px;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+    background-color: #CFE2F3;
+    color: #111;
+}
+
+.adminstats .stat-box p {
+    margin: 0;
+    padding: 0;
+}
+
+connection {
+    border: 1px solid #777;
+}
+
+connection span {
+    position: absolute;
+    font-size: 13px;
+    color: #111;
+    background: #F8F8FF;
+}
+
+connection.connection-border-top span {
+    bottom: 20px;
+}
+
+connection.connection-border-bottom span {
+    top: 20px;
+}
+
+connection.connection-border-left span {
+    right: 60px;
+}
+
+connection.connection-border-right span {
+    left: 60px;
+}

@@ -1,0 +1,73 @@
+/**
+* 2007-2015 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2015 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+
+/* start */
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar {
+  margin: 25px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar > div{
+  display: flex;
+}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar dl {
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  transition: 0.25s;}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar dl:hover {
+  cursor: pointer;
+  transform: translate(0px, -3px);
+}
+
+.bootstrap #dashboard #dashtrends dl.active {
+  background-color: #00aff0;
+  -webkit-box-shadow: white 0 0 0 2px inset;
+  box-shadow: white 0 0 0 2px inset;
+}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar dl dt, .bootstrap #dashboard #dashtrends #dashtrends_toolbar dl dd.data_value{
+    color: #ffffff;
+}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar dl dt{
+	padding: 8px;
+  height: unset;
+}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar dl dd span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar dl dd span.small {
+  font-size: 12px;
+}
+.bootstrap #dashboard #dashtrends #dashtrends_toolbar dl:hover dt, .bootstrap #dashboard #dashtrends #dashtrends_toolbar dl:hover dd.data_value {
+  color: #ffffff;
+  text-decoration: none;
+}
+.bootstrap #dashboard #dashtrends svg {
+  height: 350px;
+}
